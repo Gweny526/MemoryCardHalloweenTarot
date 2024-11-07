@@ -15,11 +15,15 @@ public class CardBehaviour : MonoBehaviour
     private bool faceUp = false;
     private Animator animator;
 
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+
+    }
+    // Start is called before the first frame update
+    void Start()
+    {
         back = spriteRenderer.sprite;  //pour mémorisé la face qui est actuellement affiché
     }
 

@@ -244,8 +244,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c52bec12ab7f74eaae54e00530bcd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  columns: 4
-  rows: 4
+  columns: 2
+  rows: 2
   prefab: {fileID: 3400997014010700126, guid: eea8d55aa2bc45c45a9d9b8b97e3b4c9, type: 3}
   gapX: 0.25
   gapY: 0.25
